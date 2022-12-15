@@ -1,0 +1,59 @@
+.logo{
+    width: 100px;
+}
+
+main{
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.librosbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque{
+    justify-content: center;
+}
+
+.stephenbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 10   00px;
+}
+
+.stephen{
+    max-width: 500px;
+}
+
+.textostepehn{
+    margin-left: 50px;
+}
+
+.libros{
+    width: 1276px;
+}
+
+.descripcion{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+.botondescubre{
+    display: flex;
+    font-size: 30px;
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #FA6060;
+    color: white;
+}
