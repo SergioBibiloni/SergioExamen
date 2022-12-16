@@ -2,11 +2,7 @@
     width: 100px;
 }
 
-main{
-    justify-content: center;
-}
-
-.titulo{
+.titulo1{
     font-size: 32px;
     display: flex;
     justify-content: center;
@@ -18,15 +14,46 @@ main{
     justify-content: center;
 }
 
+.libros{
+    width: 1276px;
+}
+
+
+.descripcin {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+}
+
+.textodescripcion{
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+}
+
 .bloque{
     justify-content: center;
 }
 
 .stephenbox{
-    margin-top: 20px;
+    margin: auto;
     display: flex;
     justify-content: center;
-    max-width: 10   00px;
+    text-align: center;
+    width: 1000px;
 }
 
 .stephen{
@@ -34,52 +61,73 @@ main{
 }
 
 .textostepehn{
-    margin-left: 50px;
+    font-size: 20px;
+   margin-left: 20px;
+  text-align: justify;
 }
 
-.libros{
-    width: 1276px;
-}
 
-.descripcion{
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
-    display: flexbox;
-}
 
 .botondescubre{
     display: flex;
     font-size: 30px;
     height: 80px;
-    width: 200px;
+    width: 1000px;
+    justify-content: center;
+    padding-top: 30px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #FA6060;
+    background-color: #7B9463;
     color: white;
 }
-
 
 
 /*FOOTER */
 
 .foter{
-    margin: none;
-    background-color: rgb(225, 224, 196);
+    background-color: rgb(226, 225, 214);
     width: 1500px;
-    height: 313px;
+    height: 213px;
+    padding-top: 20px;
 }
 
-.textito{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-}
-
-.textoo{
-    padding-top: 10px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
+.bloquetexto{
+    margin: auto;
+    width: 500px;
     text-align: center;
+}
+
+
+/*IMPUT*/
+
+.bloqueimput{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.imputt{
+    padding-left: 20px;
+    height: 50px;
+    margin: auto;
+    width: 500PX;
+}
+/*BOTON DE ALADO DEL IMPUT*/
+.suscripcion{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+.bloquecheck{
+    width: 700px;
+    display: flex;
+    margin: auto;
+}
+
+.checkbox{
+   
 }
